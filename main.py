@@ -10,7 +10,7 @@ from models import VarianceScheduler
 
 def prepare_ddpm() -> DDPM:
     """
-    EXAMPLE OF INITIALIZING DDPM. Feel free to change the following based on your needs and implementation.
+    EXAMPLE OF INITIALIZING DDPM. 
     """
     # TODO: define the configurations of the Variance Scheduler
     beta1 = 0.0001
@@ -41,7 +41,7 @@ def prepare_ddpm() -> DDPM:
 
 def prepare_ddim() -> DDIM:
     """
-    EXAMPLE OF INITIALIZING DDIM. Feel free to change the following based on your needs and implementation.
+    EXAMPLE OF INITIALIZING DDIM.
     """
     # TODO: define the configurations of the Variance Scheduler
     beta1 = 0.0001
@@ -72,7 +72,7 @@ def prepare_ddim() -> DDIM:
 
 def prepare_vae() -> VAE:
     """
-    EXAMPLE OF INITIALIZING VAE. Feel free to change the following based on your needs and implementation.
+    EXAMPLE OF INITIALIZING VAE. 
     """
     # TODO: vae configs
     in_channels = 1
@@ -94,7 +94,7 @@ def prepare_vae() -> VAE:
 
 def prepare_lddpm() -> LDDPM:
     """
-    EXAMPLE OF INITIALIZING LDDPM. Feel free to change the following based on your needs and implementation.
+    EXAMPLE OF INITIALIZING LDDPM. 
     """
     # TODO: vae configs (NOTE: it should be exactly the same config as used in prepare_vae() function)
     in_channels = 1
